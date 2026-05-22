@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-gmit-blue-deep: #0a2540;
+  --color-gmit-blue: #0f396b;
+  --color-gmit-blue-light: #e8f0fe;
+  --color-gmit-gold: #c8963e;
+  --color-gmit-gold-light: #fbf6eb;
+  --color-gmit-gold-dark: #a8731f;
+  --color-church-bg: #fafbfc;
+}
+
+/* Custom styles for GMIT Getsemani Mere web */
+body {
+  background-color: var(--color-church-bg);
+  color: #2d3748;
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Animations custom */
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.95; transform: scale(1.02); }
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 4s infinite ease-in-out;
+}
