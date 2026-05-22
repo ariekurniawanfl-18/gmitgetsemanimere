@@ -1,6 +1,6 @@
 {
   "name": "GMIT Getsemani Mere",
-  "description": "Website Resmi Gereja GMIT Getsemani Mere Amarasi Barat. Menampilkan profil, kegiatan jemaat, pengajuan administrasi pelayan jemaat, warta keuangan, dan AI Corner pembantu presbiter.",
+  "description": "Website Resmi Gereja GMIT Getsemani Mere Kec. Amarasi Barat. Menampilkan profil, kegiatan jemaat, pengajuan administrasi pelayan jemaat, warta keuangan, dan AI Corner pembantu presbiter.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

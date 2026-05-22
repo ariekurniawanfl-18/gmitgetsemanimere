@@ -40,21 +40,21 @@ const DATA_FILE = path.join(process.cwd(), 'church_data.json');
 // Default initial data
 const defaultData: ChurchData = {
   visimisi: {
-    visi: "Terwujudnya Jemaat GMIT Getsemani Mere yang mandiri, misioner, inklusif, dan rukun demi kemuliaan Allah di wilayah Amarasi Barat.",
+    visi: "Terwujudnya Jemaat GMIT Getsemani Mere yang mandiri, misioner, inklusif, dan rukun demi kemuliaan Allah di wilayah Kec. Amarasi Barat.",
     misi: [
       "Meningkatkan persekutuan dan kerohanian jemaat melalui ibadah yang kudus, dinamis, serta pengajaran firman yang bersumber pada Alkitab.",
       "Kemandirian Teologi, Daya, dan Dana melalui pemberdayaan potensi ekonomi kreatif, talenta jemaat, dan pengelolaan persepuluhan/syukur secara transparan.",
       "Mengembangkan pelayanan sosial-kasih (diakonia) yang inklusif tanpa membedakan status sosial demi meringankan penderitaan sesama.",
-      "Membina kerukunan oikumene serta toleransi hidup beragama di tengah masyarakat Amarasi Barat."
+      "Membina kerukunan oikumene serta toleransi hidup beragama di tengah masyarakat Kec. Amarasi Barat."
     ],
     motto: "Getsemani Bersemi: Bersyukur, Sehati, Melayani"
   },
   majelis: [
     {
       id: "m1",
-      name: "Pdt. ......",
+      name: "......",
       role: "Ketua Majelis Jemaat Harian (KMJ)",
-      phone: "+62 8..........",
+      phone: "+62 8.........",
       email: "......@gmail.com"
     },
     {
@@ -83,12 +83,12 @@ const defaultData: ChurchData = {
     {
       id: "m6",
       name: "Pnt. ......",
-      role: "BP4J (Badan Penasihat Pernikahan & Penyelesaian Perselisihan Jemaat)"
+      role: "BP4J (Badan Perencanaan, Penelitian, dan Pengembangan Pelayanan)"
     },
     {
       id: "m7",
       name: "Pnt. ......",
-      role: "Ketua Unit Pembantu Pelayanan (UPP) Kaum Bapak"
+      role: "Ketua Unit Pembantu Pelayanan (UPP) ......"
     },
     {
       id: "m8",
@@ -142,7 +142,7 @@ const defaultData: ChurchData = {
       id: "act5",
       title: "Persiapan Pelayan (Konsistori)",
       dateTime: "Setiap Hari Jumat - Pukul 19:15 WITA",
-      location: "Gedung Konsistori",
+      location: "Gedung GMIT Getsemani Mere",
       speaker: "Pendamping Teologi / Ketua Majelis",
       description: "Persiapan dan penelaahan materi liturgi/khotbah bagi seluruh Pendeta, Penatua, dan Diaken yang bertugas pada ibadah hari Minggu.",
       isRegularService: false
@@ -176,7 +176,7 @@ const defaultData: ChurchData = {
       id: "fin1",
       title: "Persembahan Ibadah Minggu Utama Rayon 1",
       category: "Pemasukan",
-      amount: 1950000,
+      amount: 0,
       date: "2026-05-17",
       description: "Kantung Pemasukan persembahan ibadah kebaktian liturgi pagi Rayon I"
     },
@@ -184,7 +184,7 @@ const defaultData: ChurchData = {
       id: "fin2",
       title: "Persembahan Ibadah Minggu Utama Rayon 2",
       category: "Pemasukan",
-      amount: 1650000,
+      amount: 0,
       date: "2026-05-17",
       description: "Kantung Pemasukan persembahan ibadah kebaktian liturgi siang Rayon II"
     },
@@ -192,7 +192,7 @@ const defaultData: ChurchData = {
       id: "fin3",
       title: "Kolekte Syukur Persepuluhan Keluarga",
       category: "Pemasukan",
-      amount: 2500000,
+      amount: 0,
       date: "2026-05-16",
       description: "Persepuluhan bulanan keluarga penunjang kemandirian dana"
     },
@@ -200,7 +200,7 @@ const defaultData: ChurchData = {
       id: "fin4",
       title: "Bantuan Sosial Diakonia Jemaat Terguncang Sakit",
       category: "Pengeluaran",
-      amount: 1500000,
+      amount: 0,
       date: "2026-05-19",
       description: "Pemberian dana kasih pelayanan diakonia bagi 3 kepala keluarga jemaat yang dirawat"
     },
@@ -208,7 +208,7 @@ const defaultData: ChurchData = {
       id: "fin5",
       title: "Pembetulan Instalasi Genset & Listrik Altar",
       category: "Pengeluaran",
-      amount: 750000,
+      amount: 0,
       date: "2026-05-18",
       description: "Servis genset cadangan gereja serta penggantian fitting listrik altar"
     }
@@ -252,21 +252,21 @@ const defaultData: ChurchData = {
       title: "Gedung GMIT Getsemani Mere",
       imageUrl: "https://res.cloudinary.com/dhcquhxeu/image/upload/v1779355484/Screenshot_2_lbtg3d.jpg",
       type: "foto",
-      description: "Gedung gereja sederhana yang berdiri kokoh melayani jemaat Mere, Amarasi Barat."
+      description: "Gedung gereja sederhana yang berdiri megah melayani jemaat Mere, Kec. Amarasi Barat."
     },
     {
       id: "gal2",
       title: "Persekutuan Kebaktian Paduan Suara PART",
       imageUrl: "https://res.cloudinary.com/dhcquhxeu/image/upload/v1779355586/Screenshot_3_xxtjgf.jpg",
       type: "foto",
-      description: "Kebaktian pujian paduan suara PART saat ibadah rayon."
+      description: "Kebaktian pujian paduan suara PART saat ibadah Paskah."
     },
     {
       id: "gal3",
-      title: "Kunjungan Tamu Luar",
-      imageUrl: "https://res.cloudinary.com/dhcquhxeu/image/upload/v1779355484/Screenshot_1_vbpjmh.jpg",
+      title: "Kunjungan Tim Misionaris Tamu",
+      imageUrl: "https://res.cloudinary.com/dhcquhxeu/image/upload/v1779412417/unnamed_bi1kvi.jpg",
       type: "foto",
-      description: "Kunjungan komunitas gerejawi ke GMIT Getsemani Mere."
+      description: "Kunjungan Tim Misionaris ke GMIT Getsemani Mere."
     }
   ]
 };
@@ -536,7 +536,7 @@ app.post('/api/gemini/generate', async (req, res) => {
   
   // Custom structured system guidance for Christian church activities
   const systemInstruction = 
-    "Anda adalah asisten AI teologi untuk Presbiter/Majelis Gereja GMIT Getsemani Mere Kec. Amarasi Barat, Kabupaten Kupang, Nusa Tenggara Timur (NTT). " +
+    "Anda adalah asisten AI teologi untuk Presbiter/Majelis Gereja GMIT Getsemani Mere Kec. Amarasi Barat di Nusa Tenggara Timur (NTT). " +
     "Tugas Anda adalah menolong pelayan jemaat menyusun materi pelayanan (khotbah, pengumuman, warta, renungan). " +
     "Sentuhan bahasa harus ramah, sopan, berwibawa secara Kristen, bersesuaian dengan konteks jemaat GMIT (Gereja Masehi Injili di Timor). " +
     "Gunakan struktur yang rapi, ayat Alkitab pendukung yang relevan, serta sapaan gerejawi yang hangat ('Syalom', 'Saudara-saudari terkasih').";
@@ -566,11 +566,11 @@ app.post('/api/gemini/generate', async (req, res) => {
 **Nas Pembimbing:** Filipi 2:1-4 (Satu hati, satu jiwa)
 
 **I. Pendahuluan**
-Syalom bapak, ibu, dan pemuda-pemudi di GMIT Getsemani Mere! Panggilan untuk sehati dan sepikir adalah draf penting teologis di wilayah Amarasi Barat. Di tengah kesibukan ladang dan pekerjaan, bagaimana kita tetap menjadi satu tubuh Kristus?
+Syalom bapak, ibu, dan pemuda-pemudi di GMIT Getsemani Mere! Panggilan untuk sehati dan sepikir adalah draf penting teologis di wilayah Kec. Amarasi Barat. Di tengah kesibukan ladang dan pekerjaan, bagaimana kita tetap menjadi satu tubuh Kristus?
 
 **II. Pokok-Pokok Pikiran**
 1. **Rendah Hati Menghadirkan Kerukunan (Ayat 3)**: Menjauhkan kepentingan diri agar misi Kristus terwujud di rayon-rayon kita.
-2. **Peduli pada Kepentingan Bersama (Ayat 4)**: Sebagaimana Getsemani Mere bangkit lewat program diakonia mandiri dan pemberdayaan jemaat.
+2. **Peduli pada Kepentingan Bersama (Ayat 4)**: Sebagaimana GMIT Getsemani Mere bangkit lewat program diakonia mandiri dan pemberdayaan jemaat.
 
 **III. Penutup & Relevansi**
 Mari menguatkan persekutuan jemaat kita, sehati, bersyukur, dan melayani. Amin.
