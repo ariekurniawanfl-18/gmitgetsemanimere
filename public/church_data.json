@@ -1,0 +1,232 @@
+{
+  "visimisi": {
+    "visi": "Terwujudnya Jemaat GMIT Getsemani Mere yang mandiri, misioner, inklusif, dan rukun demi kemuliaan Allah di wilayah Amarasi Barat.",
+    "misi": [
+      "Meningkatkan persekutuan dan kerohanian jemaat melalui ibadah yang kudus, dinamis, serta pengajaran firman yang bersumber pada Alkitab.",
+      "Kemandirian Teologi, Daya, dan Dana melalui pemberdayaan potensi ekonomi kreatif, talenta jemaat, dan pengelolaan persepuluhan/syukur secara transparan.",
+      "Mengembangkan pelayanan sosial-kasih (diakonia) yang inklusif tanpa membedakan status sosial demi meringankan penderitaan sesama.",
+      "Membina kerukunan oikumene serta toleransi hidup beragama di tengah masyarakat Amarasi Barat."
+    ],
+    "motto": "Getsemani Bersemi: Bersyukur, Sehati, Melayani"
+  },
+  "majelis": [
+    {
+      "id": "m1",
+      "name": "Pdt. ......",
+      "role": "Ketua Majelis Jemaat Harian (KMJ)",
+      "phone": "+62 8.........",
+      "email": "......@gmail.com"
+    },
+    {
+      "id": "m2",
+      "name": "Pnt. ......",
+      "role": "Wakil Ketua Majelis Jemaat",
+      "phone": "+62 8........."
+    },
+    {
+      "id": "m3",
+      "name": "Pnt. ......",
+      "role": "Sekretaris Majelis Jemaat",
+      "phone": "+62 8........."
+    },
+    {
+      "id": "m4",
+      "name": "Dkn. ......",
+      "role": "Bendahara Majelis Jemaat",
+      "phone": "+62 8........."
+    },
+    {
+      "id": "m5",
+      "name": "Pnt. ......",
+      "role": "BP3J (Badan Pertimbangan & Pengawasan Pelayanan Jemaat)"
+    },
+    {
+      "id": "m6",
+      "name": "Pnt. ......",
+      "role": "BP4J (Badan Penasihat Pernikahan & Penyelesaian Perselisihan Jemaat)"
+    },
+    {
+      "id": "m7",
+      "name": "Pnt. ......",
+      "role": "Ketua Unit Pembantu Pelayanan (UPP) Kemitraan"
+    },
+    {
+      "id": "m8",
+      "name": "Pnt. ......",
+      "role": "Koordinator Rayon I"
+    },
+    {
+      "id": "m9",
+      "name": "Pnt. ......",
+      "role": "Koordinator Rayon II"
+    }
+  ],
+  "activities": [
+    {
+      "id": "act1",
+      "title": "Ibadah Minggu Utama - Rayon 1 & 2",
+      "dateTime": "Setiap Hari Minggu - Pukul 08:00 WITA",
+      "location": "Gedung GMIT Getsemani Mere",
+      "speaker": "Pdt. ......",
+      "description": "Ibadah persekutuan hari perhentian kudus bersama jemaat Rayon 1 (Pagi) dan Rayon 2 (Siang). Dilengkapi liturgi GMIT.",
+      "isRegularService": true
+    },
+    {
+      "id": "act2",
+      "title": "Ibadah Pemuda (Kategorial)",
+      "dateTime": "Setiap Hari Sabtu - Pukul 17:00 WITA",
+      "location": "Gedung GMIT Getsemani Mere",
+      "speaker": "Pengurus UPP Pemuda",
+      "description": "Persekutuan dan penguatan rohani bagi segenap generasi muda/pemuda-pemudi GMIT Getsemani Mere.",
+      "isRegularService": true
+    },
+    {
+      "id": "act3",
+      "title": "Ibadah Perempuan (Kategorial)",
+      "dateTime": "Setiap Hari Selasa - Pukul 15:30 WITA",
+      "location": "Tergilir di Rumah Jemaat Rayon I",
+      "speaker": "Pemain Liturgi & Pengkhotbah Rayon",
+      "description": "Persekutuan doa ibu-ibu dalam meningkatkan pilar iman dalam keluarga Kristen.",
+      "isRegularService": true
+    },
+    {
+      "id": "act4",
+      "title": "Ibadah Kaum Bapak (Kategorial)",
+      "dateTime": "Setiap Hari Kamis - Pukul 18:00 WITA",
+      "location": "Tergilir di Rumah Jemaat Rayon II",
+      "speaker": "Majelis Pendamping Kategorial",
+      "description": "Ibadah persekutuan kaum bapak guna memantapkan tugas iman sebagai kepala keluarga Kristen.",
+      "isRegularService": true
+    },
+    {
+      "id": "act5",
+      "title": "Persiapan Pelayan (Konsistori)",
+      "dateTime": "Setiap Hari Jumat - Pukul 19:15 WITA",
+      "location": "Gedung GMIT Getsemani Mere",
+      "speaker": "Pendamping Teologi / Ketua Majelis",
+      "description": "Persiapan dan penelaahan materi liturgi/khotbah bagi seluruh Pendeta, Penatua, dan Diaken yang bertugas pada ibadah hari Minggu.",
+      "isRegularService": false
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann1",
+      "title": "Rapat Koordinasi Pelayanan Pentakosta Jemaat",
+      "content": "Mengundang seluruh Jemaat GMIT Getsemani Mere, khususnya para pengurus UPP dan koordinator rayon, untuk menghadiri rapat pleno koordinasi perayaan Pentakosta serta rancangan bakti sosial yang akan dipusatkan di Rayon II.",
+      "date": "2026-05-20",
+      "category": "Kegiatan"
+    },
+    {
+      "id": "ann2",
+      "title": "Pemanfaatan 'AI Corner' dalam Administrasi Warta",
+      "content": "Sebagai bagian dari pelayanan masa kini, jemaat meluncurkan 'AI Corner' di website resmi ini. Rubrik di bawah dapat digunakan oleh Majelis Jemaat Harian untuk mengalkulasi draf khotbah mingguan, struktur sidi, dan penyusunan draf warta jemaat secara digital.",
+      "date": "2026-05-19",
+      "category": "Pengumuman"
+    },
+    {
+      "id": "ann3",
+      "title": "Penerimaan Calon Katekisasi Kelas Baru (Sidi)",
+      "content": "Telah dibuka pendaftaran katekisasi kelas baru bagi anak-anak jemaat yang telah genap berusia 16 tahun ke atas atau yang akan meneguhkan iman (Sidi). Pendaftaran dapat dilakukan langsung secara online melalui menu Pengajuan Jemaat di portal ini.",
+      "date": "2026-05-18",
+      "category": "Berita"
+    }
+  ],
+  "financials": [
+    {
+      "id": "fin1",
+      "title": "Persembahan Ibadah Minggu Utama Rayon 1",
+      "category": "Pemasukan",
+      "amount": 0,
+      "date": "2026-05-17",
+      "description": "Kantung Pemasukan persembahan ibadah kebaktian liturgi pagi Rayon I"
+    },
+    {
+      "id": "fin2",
+      "title": "Persembahan Ibadah Minggu Utama Rayon 2",
+      "category": "Pemasukan",
+      "amount": 0,
+      "date": "2026-05-17",
+      "description": "Kantung Pemasukan persembahan ibadah kebaktian liturgi siang Rayon II"
+    },
+    {
+      "id": "fin3",
+      "title": "Kolekte Syukur Persepuluhan Keluarga",
+      "category": "Pemasukan",
+      "amount": 00,
+      "date": "2026-05-16",
+      "description": "Persepuluhan bulanan keluarga penunjang kemandirian dana"
+    },
+    {
+      "id": "fin4",
+      "title": "Bantuan Sosial Diakonia Jemaat Terguncang Sakit",
+      "category": "Pengeluaran",
+      "amount": 0,
+      "date": "2026-05-19",
+      "description": "Pemberian dana kasih pelayanan diakonia bagi 3 kepala keluarga jemaat yang dirawat"
+    },
+    {
+      "id": "fin5",
+      "title": "Pembetulan Instalasi Genset & Listrik Altar",
+      "category": "Pengeluaran",
+      "amount": 0,
+      "date": "2026-05-18",
+      "description": "Servis genset cadangan gereja serta penggantian fitting listrik altar"
+    }
+  ],
+  "registrations": [
+    {
+      "id": "reg1",
+      "type": "baptis",
+      "applicantName": "Yohanes Bani Jr.",
+      "phone": "081234567890",
+      "email": "yohanes.b@gmail.com",
+      "dateSubmitted": "2026-05-20",
+      "status": "Pending",
+      "formData": {
+        "namaLengkapAnak": "Yohanes Bani Jr.",
+        "tempatTanggalLahir": "Mere, 12 Bulan Januari 2026",
+        "namaAyah": "Pnt. Yulius Bani",
+        "namaIbu": "Agnes Bani-Kase",
+        "namaSaksiBaptis": "Pnt. Andreas Fallo, Sarah Leka"
+      }
+    },
+    {
+      "id": "reg2",
+      "type": "sidi",
+      "applicantName": "Theresia Sunbanu",
+      "phone": "085338291022",
+      "email": "theresia.sun@gmail.com",
+      "dateSubmitted": "2026-05-19",
+      "status": "Pending",
+      "formData": {
+        "namaLengkap": "Theresia Sunbanu",
+        "tempatTanggalLahir": "Amarasi, 4 Juni 2009",
+        "alamatRayon": "Rayon II Mere",
+        "namaOrangTua": "Mathias Sunbanu"
+      }
+    }
+  ],
+  "gallery": [
+    {
+      "id": "gal1",
+      "title": "Gedung GMIT Getsemani Mere",
+      "imageUrl": "https://res.cloudinary.com/dhcquhxeu/image/upload/v1779355484/Screenshot_2_lbtg3d.jpg",
+      "type": "foto",
+      "description": "Gedung gereja sederhana yang berdiri megah melayani jemaat Mere, Kec. Amarasi Barat."
+    },
+    {
+      "id": "gal2",
+      "title": "Persekutuan Kebaktian Paduan Suara PART",
+      "imageUrl": "https://res.cloudinary.com/dhcquhxeu/image/upload/v1779355586/Screenshot_3_xxtjgf.jpg",
+      "type": "foto",
+      "description": "Kebaktian pujian paduan suara PART saat ibadah Paskah."
+    },
+    {
+      "id": "gal3",
+      "title": "Kunjungan Tim Misionaris Tamu",
+      "imageUrl": "https://res.cloudinary.com/dhcquhxeu/image/upload/v1779412417/unnamed_bi1kvi.jpg",
+      "type": "foto",
+      "description": "Kunjungan Tim Misionaris ke GMIT Getsemani Mere."
+    }
+  ]
+}
